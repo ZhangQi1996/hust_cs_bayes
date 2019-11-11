@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>file:///</value>
+    </property>
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>local</value>
+    </property>
+
+    <property>
+        <name>word-times.class0.file.path</name>
+        <value>file:///root/data/course_design/train_0_mr/class0.txt</value>
+    </property>
+    <property>
+        <name>word-times.class1.file.path</name>
+        <value>file:///root/data/course_design/train_1_mr/class1.txt</value>
+    </property>
+    <property>
+        <name>train-set.class0.words-nums</name>
+        <value>7882</value>
+    </property>
+    <property>
+        <name>train-set.class1.words-nums</name>
+        <value>8554</value>
+    </property>
+    <property>
+        <name>file.path.class0.word-times</name>
+        <value>file:///root/data/course_design/train_0_mr/class0.txt</value>
+    </property>
+    <property>
+        <name>file.path.class1.word-times</name>
+        <value>file:///root/data/course_design/train_1_mr/class1.txt</value>
+    </property>
+    <property>
+        <name>tmp.seqfile.path</name>
+        <value>file:///root/data/course_design/tmp.seq</value>
+    </property>
+    <property>
+        <name>file.path.docs-true-class</name>
+        <value>file:///root/data/course_design/test_true.txt</value>
+    </property>
+</configuration>

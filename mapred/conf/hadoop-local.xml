@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://master:9999</value>
+    </property>
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>classic</value>
+    </property>
+</configuration>
